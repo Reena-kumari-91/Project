@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl5xsOzVAH7DVi89bU6wvtGJ6gS7nsYQ0Z9w&usqp=CAU"
+        type="image/icon" rel="icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" async defer></script>
+</head>
+
+<body>
+    <div class="bgbody registration-page">
+        <header>
+            <div class="container">
+                <div class="row middle">
+                    <div class="col-md-2">
+                        <div class="logo">
+                            <img src="images/logo2.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-8 center">
+                        <my-header></my-header>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="registed">
+                            <a href="login.html">Sign In</a>
+                            <a href="registration.html">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="content-area">
+            <form>
+                <fieldset>
+                    <legend align="center">
+                        <h1>Registration form</h1>
+                    </legend>
+                    <div class="row-form">
+                        <div class="row middle">
+                            <div class="col-md-3">
+                                <div class="child_label"><label>Enter Name</label></div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="input_field"><input type="text" class="form-control" placeholder="Enter your name"></div>
+                            </div>
+                        </div>
+                        <div class="row middle">
+                            <div class="col-md-3">
+                                <div class="child_label"><label>Contact No</label></div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="input_field"><input type="text" class="form-control" placeholder="Enter your number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row middle">
+                            <div class="col-md-3">
+                                <div class="child_label"><label>Gender</label></div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="input_field gender">
+                                    <input type="radio" name="g">Male
+                                    <input type="radio" name="g">Female
+                                    <input type="radio" name="g">Other
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row middle">
+                            <div class="col-md-3">
+                                <div class="child_label">
+                                    <label>Interested in:</label>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="input_field gender">
+                                    <select class="form-control">
+                                        <option value="bt">To Join Hospital</option>
+                                        <option value="bc">To Visit as admin</option>
+                                        <option value="mc">To visit as patient </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row middle">    
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <div class="submission">
+                                <input type="submit" value="submit" onclick="alert1()">
+                                <input type="reset" value="Reset" onclick="alert2()">
+                            </div>
+                            <div class="col-md-4"></div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <footer>
+            <my-footer></my-footer>
+        </footer>
+    </div>
+</body>
+
+</html>
